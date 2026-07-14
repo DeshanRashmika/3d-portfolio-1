@@ -52,13 +52,10 @@ const AppShowcase = () => {
               <img src="/images/project1.png" alt="Ryde App Interface" />
             </div>
             <div className="text-content">
-              <h2>
-                On-Demand Rides Made Simple with a Powerful, User-Friendly App
-                called Ryde
+              <h2>Co-Banking Dashboard: Secure & Efficient Financial Management
               </h2>
               <p className="text-white-50 md:text-xl">
-                An app built with React Native, Expo, & TailwindCSS for a fast,
-                user-friendly experience.
+                A high-performance banking dashboard enabling seamless account monitoring, real-time transaction tracking, and quick financial actions. Engineered with a scalable Java Spring Boot backend, JPA/Hibernate for robust data management, and a responsive React frontend, ensuring a secure and user-friendly banking experience.
               </p>
             </div>
           </div>
@@ -68,17 +65,17 @@ const AppShowcase = () => {
               <div className="image-wrapper bg-[#FFEFDB]">
                 <img
                   src="/images/project2.png"
-                  alt="Library Management Platform"
+                  alt="Medi-Vault: Secure Digital Health Record System"
                 />
               </div>
-              <h2>The Library Management Platform</h2>
+              <h2>Medi-Vault: Secure Digital Health Record System</h2>
             </div>
 
             <div className="project" ref={ycDirectoryRef}>
               <div className="image-wrapper bg-[#FFE7EB]">
-                <img src="/images/project3.png" alt="YC Directory App" />
+                <img src="/images/project3.png" alt="MediSync.io - Pharmacy Inventory Management System" />
               </div>
-              <h2>YC Directory - A Startup Showcase App</h2>
+              <h2>MediSync.io - Pharmacy Inventory Management System</h2>
             </div>
           </div>
         </div>
