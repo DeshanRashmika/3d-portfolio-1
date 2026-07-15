@@ -1,3 +1,5 @@
+import { assetPath } from "../utils/assetPath";
+
 const navLinks = [
   {
     name: "Work",
@@ -18,14 +20,14 @@ const navLinks = [
 ];
 
 const words = [
-  { text: "Ideas", imgPath: "/images/ideas.svg" },
-  { text: "Concepts", imgPath: "/images/concepts.svg" },
-  { text: "Designs", imgPath: "/images/designs.svg" },
-  { text: "Code", imgPath: "/images/code.svg" },
-  { text: "Ideas", imgPath: "/images/ideas.svg" },
-  { text: "Concepts", imgPath: "/images/concepts.svg" },
-  { text: "Designs", imgPath: "/images/designs.svg" },
-  { text: "Code", imgPath: "/images/code.svg" },
+  { text: "Ideas", imgPath: assetPath("/images/ideas.svg") },
+  { text: "Concepts", imgPath: assetPath("/images/concepts.svg") },
+  { text: "Designs", imgPath: assetPath("/images/designs.svg") },
+  { text: "Code", imgPath: assetPath("/images/code.svg") },
+  { text: "Ideas", imgPath: assetPath("/images/ideas.svg") },
+  { text: "Concepts", imgPath: assetPath("/images/concepts.svg") },
+  { text: "Designs", imgPath: assetPath("/images/designs.svg") },
+  { text: "Code", imgPath: assetPath("/images/code.svg") },
 ];
 
 const counterItems = [
@@ -35,54 +37,32 @@ const counterItems = [
 ];
 
 const logoIconsList = [
-  {
-    imgPath: "/images/logos/company-logo-1.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-2.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-3.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-4.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-5.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-6.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-7.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-8.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-9.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-10.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-11.png",
-  },
+  { imgPath: assetPath("/images/logos/company-logo-1.png") },
+  { imgPath: assetPath("/images/logos/company-logo-2.png") },
+  { imgPath: assetPath("/images/logos/company-logo-3.png") },
+  { imgPath: assetPath("/images/logos/company-logo-4.png") },
+  { imgPath: assetPath("/images/logos/company-logo-5.png") },
+  { imgPath: assetPath("/images/logos/company-logo-6.png") },
+  { imgPath: assetPath("/images/logos/company-logo-7.png") },
+  { imgPath: assetPath("/images/logos/company-logo-8.png") },
+  { imgPath: assetPath("/images/logos/company-logo-9.png") },
+  { imgPath: assetPath("/images/logos/company-logo-10.png") },
+  { imgPath: assetPath("/images/logos/company-logo-11.png") },
 ];
 
 const abilities = [
   {
-    imgPath: "/images/seo.png",
+    imgPath: assetPath("/images/seo.png"),
     title: "Quality Focus",
     desc: "Delivering high-quality results while maintaining attention to every detail.",
   },
   {
-    imgPath: "/images/chat.png",
+    imgPath: assetPath("/images/chat.png"),
     title: "Reliable Communication",
     desc: "Keeping you updated at every step to ensure transparency and clarity.",
   },
   {
-    imgPath: "/images/time.png",
+    imgPath: assetPath("/images/time.png"),
     title: "On-Time Delivery",
     desc: "Making sure projects are completed on schedule, with quality & attention to detail.",
   },
@@ -91,54 +71,54 @@ const abilities = [
 const techStackImgs = [
   {
     name: "React Developer",
-    imgPath: "/images/logos/react.png",
+    imgPath: assetPath("/images/logos/react.png"),
   },
   {
     name: "Python Developer",
-    imgPath: "/images/logos/python.svg",
+    imgPath: assetPath("/images/logos/python.svg"),
   },
   {
     name: "Backend Developer",
-    imgPath: "/images/logos/node.png",
+    imgPath: assetPath("/images/logos/node.png"),
   },
   {
     name: "Interactive Developer",
-    imgPath: "/images/logos/three.png",
+    imgPath: assetPath("/images/logos/three.png"),
   },
   {
     name: "Project Manager",
-    imgPath: "/images/logos/git.svg",
+    imgPath: assetPath("/images/logos/git.svg"),
   },
 ];
 
 const techStackIcons = [
   {
     name: "React Developer",
-    modelPath: "/models/react_logo-transformed.glb",
+    modelPath: assetPath("/models/react_logo-transformed.glb"),
     scale: 1,
     rotation: [0, 0, 0],
   },
   {
     name: "Java Developer",
-    modelPath: "/models/python-transformed.glb",
+    modelPath: assetPath("/models/python-transformed.glb"),
     scale: 0.8,
     rotation: [0, 0, 0],
   },
   {
     name: "Backend Developer",
-    modelPath: "/models/node-transformed.glb",
+    modelPath: assetPath("/models/node-transformed.glb"),
     scale: 5,
     rotation: [0, -Math.PI / 2, 0],
   },
   {
     name: "Interactive Developer",
-    modelPath: "/models/three.js-transformed.glb",
+    modelPath: assetPath("/models/three.js-transformed.glb"),
     scale: 0.05,
     rotation: [0, 0, 0],
   },
   {
     name: "Git & Version Control",
-    modelPath: "/models/git-svg-transformed.glb",
+    modelPath: assetPath("/models/git-svg-transformed.glb"),
     scale: 0.05,
     rotation: [0, -Math.PI / 4, 0],
   },
@@ -146,9 +126,10 @@ const techStackIcons = [
 
 const expCards = [
   {
-    review: "The Gateway addresses two core business needs. First, it ensures that all sensitive client data (names, NIC numbers, bank details, and other Personally Identifiable Information) is automatically masked and anonymizebefore any content is transmitted to an AI model, so that client confidentiality is preserved at all times. Second,it provides a Prompt Engineering Module that enables lawyers to generate high-quality legal outputs usingpre-built templates, requiring no technical knowledge of AI systems",
-    imgPath: "/images/exp1.png",
-    logoPath: "/images/logo1.png",
+    review:
+      "The Gateway addresses two core business needs. First, it ensures that all sensitive client data (names, NIC numbers, bank details, and other Personally Identifiable Information) is automatically masked and anonymizebefore any content is transmitted to an AI model, so that client confidentiality is preserved at all times. Second,it provides a Prompt Engineering Module that enables lawyers to generate high-quality legal outputs usingpre-built templates, requiring no technical knowledge of AI systems",
+    imgPath: assetPath("/images/exp1.png"),
+    logoPath: assetPath("/images/logo1.png"),
     title: "Trainee Software Developer",
     date: "March 2026 - April 2026",
     responsibilities: [
@@ -156,18 +137,19 @@ const expCards = [
       "Developed a robust document upload system in Angular, supporting Drag and Drop functionality and real-time file validation for PDF, DOCX, and TXT formats.",
       "Implemented client-side validation logic to ensure data integrity, including MIME-type checking and dynamic file-name formatting (shortening) for optimized UI/UX.",
       "Engineered an automated document text extraction module leveraging Apache Tika, standardizing data ingestion pipelines across PDF, DOCX, and TXT formats while executing raw text sanitization to protect user data privacy.",
-      "Integrated the backend with an Angular frontend, focusing on secure file handling and real-time feedback on anonymization status."
+      "Integrated the backend with an Angular frontend, focusing on secure file handling and real-time feedback on anonymization status.",
     ],
   },
   {
-    review: "Vision : To bridge the gap between citizens and governance using technology that enhances transparency, efficiency, and accessibility. Mission : Enable communities and organizations to thrive through intelligent technology",
-    imgPath: "/images/exp2.png",
-    logoPath: "/images/logo2.png",
+    review:
+      "Vision : To bridge the gap between citizens and governance using technology that enhances transparency, efficiency, and accessibility. Mission : Enable communities and organizations to thrive through intelligent technology",
+    imgPath: assetPath("/images/exp2.png"),
+    logoPath: assetPath("/images/logo2.png"),
     title: "Social Media Manager",
     date: "Oct 2025– january 2026",
     responsibilities: [
-      "Managed and grew the company’s social media presence across multiple platforms, developing content strategies that increased audience engagement and brand visibility.",
-      "Created and scheduled technical content aligned with Civora Tech’s brand identity, translating complex software concepts into accessible posts for diverse audiences.",
+      "Managed and grew the company's social media presence across multiple platforms, developing content strategies that increased audience engagement and brand visibility.",
+      "Created and scheduled technical content aligned with Civora Tech's brand identity, translating complex software concepts into accessible posts for diverse audiences.",
       "Monitored analytics and adjusted content calendars based on engagement metrics and audience feedback.",
     ],
   },
@@ -176,38 +158,36 @@ const expCards = [
 const expLogos = [
   {
     name: "logo1",
-    imgPath: "/images/logo1.png",
+    imgPath: assetPath("/images/logo1.png"),
   },
   {
     name: "logo2",
-    imgPath: "/images/logo2.png",
+    imgPath: assetPath("/images/logo2.png"),
   },
   {
     name: "logo3",
-    imgPath: "/images/logo3.png",
+    imgPath: assetPath("/images/logo3.png"),
   },
 ];
 
-const testimonials = [
- 
-];
+const testimonials = [];
 
 const socialImgs = [
   {
     name: "insta",
-    imgPath: "/images/insta.png",
+    imgPath: assetPath("/images/insta.png"),
   },
   {
     name: "fb",
-    imgPath: "/images/fb.png",
+    imgPath: assetPath("/images/fb.png"),
   },
   {
     name: "x",
-    imgPath: "/images/x.png",
+    imgPath: assetPath("/images/x.png"),
   },
   {
     name: "linkedin",
-    imgPath: "/images/linkedin.png",
+    imgPath: assetPath("/images/linkedin.png"),
   },
 ];
 
