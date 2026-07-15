@@ -176,18 +176,22 @@ const socialImgs = [
   {
     name: "insta",
     imgPath: assetPath("/images/insta.png"),
+    link: "https://www.instagram.com/deshan_rashmika/",
   },
   {
     name: "fb",
     imgPath: assetPath("/images/fb.png"),
+    link: "https://www.facebook.com/profile.php?id=61581469182977",
   },
   {
     name: "x",
     imgPath: assetPath("/images/x.png"),
+    link: "https://x.com/DeshanRash45361",
   },
   {
     name: "linkedin",
     imgPath: assetPath("/images/linkedin.png"),
+    link: "https://www.linkedin.com/in/deshanrashmika/",
   },
 ];
 
